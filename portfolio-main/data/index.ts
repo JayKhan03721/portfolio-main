@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Achievements", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -186,22 +186,22 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Data Analysis Intern",
+    desc: "Completed a 10-week internship at Bureau of Statistics – Guyana through a two-phase work-study program. Gained hands-on experience with statistical programming in R, while independently studying from R for Data Science (2e) and R Programming. Built skills in data analysis and visualization using real datasets.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Accountant Intern",
+    desc: "Completed a 3-month internship at the Beharry Service Center which was focused on financial operations. Learned to use PBS accounting software, handled customer payments, and assisted with processing overtime payments for staff.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Software Experience",
+    desc: "Experienced in using Canva, Kobo Toolbox, Excel, and PowerPoint, gained during my internship at the Bureau of Statistics. Additionally, worked with Figma and various JavaScript libraries during my time in the Beharry Digital Department. Developed a deeper understanding of Microsoft Word and Excel while interning as an Accountant at the Toyota Service Center.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
