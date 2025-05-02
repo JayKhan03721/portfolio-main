@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I'm Very flexible with time and communication.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -80,15 +80,15 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    title: "My Portfolio Website",
+    des: "A portfolio website designed to showcase creativity, interactivity, and unique digital design.",
+    img: "/Portfolio.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", ],
     link: "", // TODO: Add live link here later
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
+    title: "My First Project",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
@@ -108,54 +108,59 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    "Throughout my journey in web design and development, I’ve had the opportunity to work on a variety of creative projects that reflect both technical skill and artistic vision. From building fully responsive, interactive websites to crafting custom 3D experiences, each project has helped me grow and refine my craft.Notable achievements include designing animated user interfaces, developing cross-device experiences, and replicating high-profile websites to push my creative limits. These experiences continue to fuel my passion for creating meaningful digital experiences.",
+    name: "Jamal Khan",
+    title: "Creator of this portfolio",
+    image: "/MyLOGO.png", // unique image path
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      " Attended Diamond Secondary School for 5 years, completing the CXC exams in May/June 2024. I successfully sat for 8 subjects, earning 6 Grade Ones, 1 Grade Two, and 1 Grade Three. I received a CXC Distinction and achieved straight A's in two subjects.",
+    name: "Distinction Certificate",
+    title: "Caribbean Examinations Council (CXC)",
+    image: "/CXC.jpg", // unique image path
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Completed a hands-on training course under the instruction of Mr. Amar Ram from September to December 6, 2024. This program strengthened my practical skills and technical knowledge, culminating in a certificate awarded by the Board of Industrial Training, Guyana.",
+    name: "Certificate in Automotive Electrical",
+    title: "Board of Industrial Training Guyana",
+    image: "/BIT.jpeg", // unique image path
   },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+  // {
+  //   quote:
+  //     "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+  //   name: "Michael Johnson",
+  //   title: "Director of AlphaStream Technologies",
+  //   image: "/MyLOGO.png", // unique image path
+  // },
+  // {
+  //   quote:
+  //     "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+  //   name: "Michael Johnson",
+  //   title: "Director of AlphaStream Technologies",
+  //   image: "/MyLOGO.png", // unique image path
+  // },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
+    name: "Front End Developer",
+    img: "/MyLOGO.png",
     nameImg: "/cloudName.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
+    name: "CXC",
+    img: "/CXC.jpg",
     nameImg: "/appName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "BIT",
+    img: "/BIT.jpeg",
+    nameImg: "/BITName.jpeg",
   },
   {
     id: 4,
@@ -174,8 +179,8 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Web Development Intern",
+    desc: "Self-taught in HTML, CSS, JavaScript, React.js, and various front-end frameworks over the course of 3 months, with hands-on experience building and replicating web-based projects to sharpen design and development skills..",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
