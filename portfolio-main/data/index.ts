@@ -89,7 +89,7 @@ export const projects = [
   {
     id: 3,
     title: "My First Project",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    des: "My first progect created using Vite + React",
     img: "/Nalico.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://jaykhan03721.github.io/TeamProject/", // TODO: Add live link here later
