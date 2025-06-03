@@ -1,22 +1,13 @@
-import { withSentryConfig } from '@sentry/nextjs';
-
+// next.config.mjs
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Static export for GitHub Pages
-  basePath: '/portfolio-main', // Your GitHub repo name
+  output: 'export',
+  basePath: '/portfolio-main',
+  assetPrefix: '/portfolio-main/',
   images: {
-    unoptimized: true, // Required for static export
+    unoptimized: true,
   },
 };
 
-export default withSentryConfig(nextConfig, {
-  // Sentry Webpack plugin options
-  silent: !process.env.CI,
-  org: 'jay-khan',
-  project: 'javascript-nextjs',
+export default nextConfig;
 
-  widenClientFileUpload: true,
-  tunnelRoute: '/monitoring',
-  disableLogger: true,
-  automaticVercelMonitors: true,
-});
